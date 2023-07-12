@@ -90,7 +90,7 @@ Register page is where you register as an user. You have to provide:
 
 You have to log in to buy on the page. Log in contains Username field and password field.
 
-![Log in page](readme-images/LogIn.png)
+![Log in page](readme-images/log_in.png)
 
 
 #### Tire page
@@ -152,41 +152,41 @@ I used W3C HTML validator to validate my html pages, all errors it gives is rela
 
 - Base.html
 
-![base page validator](readme-images/base-html-validator.png)
+![base page validator](readme-images/base.png)
 
 - Index.html
 
-![Index page validator](readme-images/index-html-validator.png)
+![Index page validator](readme-images/index.png)
 
 - login.html
 
-![login page validator](readme-images/login-html-validator.png)
+![login page validator](readme-images/login.png)
 
 - register.html
 
-![register page validator](readme-images/register-html-validator.png)
+![register page validator](readme-images/register.png)
 
 - rims.html
 
-![rims page validator](readme-images/rims-html-validator.png)
+![rims page validator](readme-images/rims.png)
 
 - tires.html
 
-![Tires page validator](readme-images/tires-html-validator.png)
+![Tires page validator](readme-images/tires.png)
 
 
 #### W3C CSS Validator:
 
 The CSS jigsaw validator showed no errors, here is the result:
 
-![CSS Validator](readme-images/css-validator.png)
+![CSS Validator](readme-images/CSS.png)
 
 
 #### JSHint:
 
 The JSHINT validator gives some ES6 warnings for using let, no problems with code. Here is results:
 
-![JS Hint](readme-images/js-hint-validator.png)
+![JS Hint](readme-images/JS.png)
 
 
 #### PEP8 Online:
@@ -238,10 +238,10 @@ Here is the results from lighthouse:
 | 2 | Menu page | Navigate on menu page | Images, texts, links, icons work | PASS |
 | 3 | Register page | User can register  | Works like it should | PASS |
 | 4 | Login page | User can register and will be redirected | Works as expected | PASS |
-| 5 | Responsiveness | Tested on diffrent device sizes | does not work on small screens as expected due to time | FAIL |
+| 5 | Responsiveness | Tested on diffrent device sizes | Works as expected | PASS |
 | 6 | Add to cart | User can add to cart when logged in | User can add to cart when user loggs in | PASS |
 | 7 | See cart | User can see cart | User can see cart when user is logged in | PASS |
-| 8 | Modify cart quantity | User can clear cart but not modify quantity | Ongoing to fix this issue next, not working as expected | FAIL |
+| 8 | Modify cart quantity | User can clear cart but not modify quantity | Works as expected | PASS |
 
 
 
